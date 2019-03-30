@@ -13,7 +13,7 @@ Supports macOS (64-bit), Linux (32 and 64-bit) and Windows (32 and 64-bit). The 
 This module is installed via npm:
 
 ``` bash
-$ npm install ffmpeg-static
+$ npm install ffmpeg-node-static
 ```
 
 ## Example Usage
@@ -21,9 +21,9 @@ $ npm install ffmpeg-static
 Returns the path of a statically linked ffmpeg binary on the local filesystem.
 
 ``` js
-var ffmpeg = require('ffmpeg-static');
+var ffmpeg = require('ffmpeg-node-static');
 console.log(ffmpeg.path);
-// /Users/eugeneware/Dropbox/work/ffmpeg-static/bin/darwin/x64/ffmpeg
+// /Users/eugeneware/Dropbox/work/ffmpeg-node-static/bin/darwin/x64/ffmpeg
 ```
 
 ## Sources of the binaries
